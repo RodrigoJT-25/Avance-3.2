@@ -35,7 +35,7 @@ def render_maze(maze, path=None):
 
 # Sidebar para controles
 st.sidebar.header("Opciones")
-algorithm = st.sidebar.selectbox("Selecciona el algoritmo", ["BFS(no implementado)", "DFS (no implementado)", "A* (no implementado)"])
+algorithm = st.sidebar.selectbox("Selecciona el algoritmo", ["BFS", "DFS (no implementado)", "A* (no implementado)"])
 solve_button = st.sidebar.button("Resolver Laberinto")
 
 render_maze(MAZE)
